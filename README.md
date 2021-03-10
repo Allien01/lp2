@@ -1,5 +1,5 @@
 ## Repo Description
-An Java repository built for my lp2 Classes
+A Java repository built for my lp2 Classes
 
 ## To Do List
 
@@ -11,4 +11,4 @@ Create a program with Java2D :white_check_mark:
 
 ## What I Learned
 - Instalação e execução do Java SDK SE
-s
+
