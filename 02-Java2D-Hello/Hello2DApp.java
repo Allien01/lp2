@@ -18,17 +18,20 @@ class Hello2DFrame extends JFrame {
                 }
             }
         );
-        this.setTitle("Java2D - Hello World!");
-        this.setSize(350, 350);
+        this.setTitle("Initial Drawing - Line/Elipse/Rectangle");
+        this.setSize(500, 350);
     }
 
     public void paint (Graphics g) {
         super.paint(g);
         Graphics2D g2d = (Graphics2D) g;
-        g2d.setPaint(Color.blue);
+        g2d.setPaint(Color.red);
+        this.setBackground(Color.black);
         int w = getWidth();
         int h = getHeight();
-        g2d.drawLine(0,0, w,h);
-        g2d.drawLine(0,h, w,0);
+        g2d.drawLine(0,50, w,50);
+        g2d.fillRect(70, 80, w - 100, 90);
+        g2d.drawOval(120, 200, w - 200, 100 );
+
     }
 }
